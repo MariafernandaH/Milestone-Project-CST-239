@@ -1,0 +1,18 @@
+package milestone;
+
+public class Price {
+	public static int ps1 = 35;
+	public static int ps2 = 50;
+	public static int ps3 = 50;
+	public static int ps4 = 50;
+	public static int php = 50;
+	public static int phhp = 25;
+	public static int parmor1 = 75;
+	public static int parmor2 = 30;
+	public static int parmor3 = 40;
+	public static int parmor4 = 75;
+	public static int parmor5 = 50;
+	public static int parmor6 = 75;
+	public static String price = "shillings";
+
+}
