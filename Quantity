@@ -1,0 +1,17 @@
+package milestone;
+
+public class Quantity {
+	public static int qs1 = 5;
+	public static int qs2 = 5;
+	public static int qs3 = 3;
+	public static int qs4 = 3;
+	public static int qhp = 10;
+	public static int qhhp = 20;
+	public static int qarmor1 = 3;
+	public static int qarmor2 = 20;
+	public static int qarmor3 = 10;
+	public static int qarmor4 = 3;
+	public static int qarmor5 = 5;
+	public static int qarmor6 = 3;
+
+}
