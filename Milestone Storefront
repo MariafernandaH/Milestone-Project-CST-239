@@ -1,0 +1,20 @@
+# Milestone-Project-CST-239
+Storefront
+
+package milestone;
+import java.util.Scanner;
+
+public class Store {
+
+	public static void main(String[] args) {
+	
+System.out.println("Welcome to Midieval R Us, where even the plague can't stop us. Would you like to see what is for sale?");
+Scanner scnr = new Scanner(System.in);
+final String input = scnr.next();
+final NameProducts myProducts = new NameProducts();
+
+myProducts.getNameProducts();
+
+	}
+
+}
