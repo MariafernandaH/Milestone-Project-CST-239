@@ -1,0 +1,42 @@
+package milestone;
+import java.util.Scanner;
+public class NameProducts {
+public static String s1 = "short sword";
+public static String s2 = "broad sword";
+public static String s3 = "bow";
+public static String s4 = "arrows and quiver";
+public static String hp = "full health potion";
+public static String hhp = "half health potion";
+public static String armor1 = "metal helmet";
+public static String armor2 = "leather gloves";
+public static String armor3 = "leather boots";
+public static String armor4 = "metal shield";
+public static String armor5 = "wooden shield";
+public static String armor6 = "metal body plate";
+
+
+static Scanner scnr = new Scanner(System.in);
+
+
+
+public static void getNameProducts() {
+	String input = scnr.next();
+	if (input.equals("yes")) {
+		System.out.println("Here is the full list of our products, let me know if you'd like more details on each item: ");
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		System.out.println(s4);
+		System.out.println(hp);
+		System.out.println(hhp);
+		System.out.println(armor1);
+		System.out.println(armor2);
+		System.out.println(armor3);
+		System.out.println(armor4);
+		System.out.println(armor5);
+		System.out.println(armor6);
+	}
+	else if (input.equals("no")) {
+		System.out.println("Okay, try not to get eaten by a dragon then!");
+	}
+}}
